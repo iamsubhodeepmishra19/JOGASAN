@@ -9,7 +9,6 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-amber-300: oklch(87.9% 0.169 91.605);
-    --color-amber-400: oklch(82.8% 0.189 84.429);
     --color-white: #fff;
     --spacing: 0.25rem;
     --tracking-normal: 0em;
@@ -442,9 +441,6 @@
   }
   .bg-\[url\(\'\.\/assets\/Banner\.png\'\)\] {
     background-image: url('./assets/Banner.png');
-  }
-  .bg-\[url\(\'\/assets\/Banner\.png\'\)\] {
-    background-image: url('/assets/Banner.png');
   }
   .bg-\[url\(\'\/assets\/therapy-bg\.png\'\)\] {
     background-image: url('/assets/therapy-bg.png');
