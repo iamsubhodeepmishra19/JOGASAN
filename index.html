@@ -1,0 +1,867 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JOGASAN</title>
+    <!-- *splide css -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <!-- *custom css -->
+    <link rel="stylesheet" href="./output/style.css" />
+  </head>
+  <body>
+    <!-- !header section -->
+    <header class="py-3 absolute bg-transparent top-0 left-0 right-0 z-3">
+      <div class="max-w-317.5 mx-auto w-full px-3.75">
+        <nav class="flex items-center">
+          <div class="nav-logo">
+            <a href="index.html" class="w-32 sm:w-68 inline-block">
+              <img
+                class="w-full h-full object-cover"
+                src="./assets/nav-logo.png"
+                alt="nav-logo"
+              />
+            </a>
+          </div>
+          <div
+            class="navbar-collapse flex grow items-center text-center flex-col pt-30 lg:pt-0 lg:flex-row fixed lg:relative z-50 -right-full lg:right-0 top-0 bottom-0 w-[90%] sm:w-[60%] lg:w-0 bg-[rgba(23,1,1,0.83)] lg:bg-transparent backdrop-blur-[20px] lg:backdrop-blur-none transition-all duration-500 ease-linear lg:transition-none"
+          >
+            <ul class="flex mx-auto lg:ms-auto lg:me-0 flex-col lg:flex-row">
+              <li class="nav-items me-0 lg:me-15.25 mb-5 lg:mb-0">
+                <a
+                  href="#"
+                  class="links uppercase tracking-[3px] text-[#9b315d] font-brevia-semibold text-[16px] md:text-[24px]"
+                  >home</a
+                >
+              </li>
+              <li class="nav-items me-0 lg:me-15.25 mb-5 lg:mb-0">
+                <a
+                  href="#"
+                  class="links uppercase text-white tracking-[3px] hover:text-[#9b315d] font-brevia-semibold text-[16px] md:text-[24px]"
+                  >about</a
+                >
+              </li>
+              <li class="nav-items me-0 lg:me-15.25 mb-5 lg:mb-0">
+                <a
+                  href="#"
+                  class="links uppercase text-white tracking-[3px] hover:text-[#9b315d] font-brevia-semibold text-[16px] md:text-[24px]"
+                  >blog</a
+                >
+              </li>
+              <li class="nav-items me-0 lg:me-15.25 mb-5 lg:mb-0">
+                <a
+                  href="#"
+                  class="links uppercase text-white tracking-[3px] hover:text-[#9b315d] font-brevia-semibold text-[16px] md:text-[24px]"
+                  >contact us</a
+                >
+              </li>
+            </ul>
+            <div class="nav-btn mx-auto lg:mx-0">
+              <img src="./assets/humburger.png" alt="" />
+            </div>
+          </div>
+          <div class="menu group w-10 ms-auto block lg:hidden relative z-50">
+            <span
+              class="relative w-full h-1 bg-[#9b315d] inline-block rounded-full transition-all duration-300 ease-in-out group-[.show]:bg-transparent before:content-[''] before:absolute before:left-0 before:right-0 before:h-1 before:bg-[#9b315d] before:top-0 before:rounded-full before:transition-transform before:duration-300 before:ease-in-out before:origin-center before:-translate-y-2.5 group-[.show]:before:translate-y-0 group-[.show]:before:rotate-45 group-[.show]:before:bg-white after:content-[''] after:absolute after:left-0 after:right-0 after:h-1 after:bg-[#9b315d] after:top-0 after:rounded-full after:transition-transform after:duration-300 after:ease-in-out after:origin-center after:translate-y-2.5 group-[.show]:after:translate-y-0 group-[.show]:after:-rotate-45 group-[.show]:after:bg-white"
+            ></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- !banner section -->
+      <section
+        class="banner-sec min-h-screen bg-[url(/assets/Banner.png)] bg-no-repeat bg-center bg-cover pt-48 sm:pt-68.5 pb-32 sm:pb-47.75 relative"
+      >
+        <div class="max-w-317.5 mx-auto w-full px-3.75">
+          <div
+            class="banner-cntn max-w-145 mx-auto text-center md:ms-auto md:me-0 md:text-left"
+          >
+            <h1
+              class="title1 uppercase text-[40px] sm:text-[62px] font-lucidabright-demibold tracking-normal sm:tracking-[2px] text-center md:text-end text-[#2e0f1c]"
+            >
+              yoga
+              <span
+                class="bg-[#ef77aa] rounded-sm text-white px-0 sm:ps-3.5 sm:pe-3.25"
+                >classes</span
+              >
+            </h1>
+            <div class="ps-0 md:ps-16.5">
+              <p
+                class="title2-sub text-[#9b315d] text-[32px] my-7.25 font-brevia-medium"
+              >
+                Body Harmony
+              </p>
+              <p
+                class="desc text-[16px] sm:text-[18px] font-brevia-regular text-[#3d3b3c]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                ipsum suspendisse ultrices gravida. Risus commodo viverra
+                maecenas accumsan lacus vel facilisis.
+              </p>
+
+              <a href="#" class="primary-btn mt-7">More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- !philosophy section -->
+      <section class="phil-sec pt-16 sm:pt-25.75 pb-8 bg-[rgb(245,245,245)]">
+        <div class="max-w-317.5 mx-auto w-full px-3.75">
+          <div class="flex flex-wrap -mx-3.75">
+            <div class="w-full px-3.75 md:w-[50%]">
+              <div class="phil-cntn text-center md:text-left">
+                <h2
+                  class="title2 uppercase text-[20px] md:text-[50px] font-lucidabright-demibold tracking-[2px] text-[#2e0f1c]"
+                >
+                  our
+                  <span class="bg-[#ef77aa] rounded-sm text-white px-3"
+                    >philosophy</span
+                  >
+                </h2>
+                <p
+                  class="desc text-[16px] sm:text-[18px] mt-2.5 sm:mt-13.25 font-brevia-regular text-[#3d3b3c]"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                  maecenas accumsan lacus vel facilisis.
+                  <br /><br />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                  maecenas accumsan lacus vel facilisis.
+                </p>
+                <a href="#" class="primary-btn rounded-[22px] mt-7"
+                  >Read More</a
+                >
+              </div>
+            </div>
+            <div class="w-full px-3.75 md:w-[50%]">
+              <div class="phil-img max-w-142.75 mx-auto md:mx-0 pt-8 md:pt-0">
+                <img
+                  class="w-full h-full object-cover transition-all duration-500 ease-linear hover:-translate-y-10"
+                  src="./assets/phil-img.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- !triple card section -->
+      <section class="triple-card-sec pt-8 sm:pt-34.25 pb-8 sm:pb-17.75">
+        <div class="max-w-317.5 mx-auto w-full px-3.75">
+          <div class="flex flex-wrap -mx-3.75">
+            <div class="sm:max-w-[50%] md:max-w-[33.33%] px-3.75">
+              <div
+                class="img-card text-center py-14 px-5 transition-all duration-300 ease-linear hover:shadow-[0px_40px_153px_27px_rgba(0,0,0,0.1)]"
+              >
+                <div
+                  class="card-img-box max-w-77 mx-auto transition-all duration-500 ease-linear hover:scale-105"
+                >
+                  <img
+                    class="w-full h-full object-cover"
+                    src="./assets/card1img.png"
+                    alt=""
+                  />
+                </div>
+                <p
+                  class="card-hdr uppercase text-[20px] md:text-[32px] text-[#2e0f1c] my-2.5 md:my-13.5 font-brevia-semibold"
+                >
+                  first class <span class="text-[#ee77a9]">free</span>
+                </p>
+                <p
+                  class="desc text-[13px] md:text-[18px] font-brevia-regular text-[#3d3b3c]"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                  maecenas accumsan lacus vel facilisis.
+                </p>
+                <a href="#" class="primary-btn rounded-[22px] mt-7 mb-5 md:mb-0"
+                  >Read More</a
+                >
+              </div>
+            </div>
+            <div class="sm:max-w-[50%] md:max-w-[33.33%] px-3.75">
+              <div
+                class="img-card text-center shadow-[0px_40px_153px_27px_rgba(0,0,0,0.1)] py-14 px-4"
+              >
+                <div
+                  class="card-img-box max-w-77 mx-auto transition-all duration-500 ease-linear hover:scale-105"
+                >
+                  <img
+                    class="w-full h-full object-cover"
+                    src="./assets/card2img.png"
+                    alt=""
+                  />
+                </div>
+                <p
+                  class="card-hdr uppercase text-[20px] md:text-[32px] text-[#2e0f1c] my-2.5 md:my-13.5 font-brevia-semibold"
+                >
+                  harmony <span class="text-[#ee77a9]">your body</span>
+                </p>
+                <p
+                  class="desc text-[13px] md:text-[18px] font-brevia-regular text-[#3d3b3c]"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                  maecenas accumsan lacus vel facilisis.
+                </p>
+                <a href="#" class="primary-btn rounded-[22px] mt-7 mb-5 md:mb-0"
+                  >Read More</a
+                >
+              </div>
+            </div>
+            <div class="md:max-w-[33.33%] px-3.75">
+              <div
+                class="img-card text-center my-[2.5] py-14 px-5 transition-all duration-300 ease-linear hover:shadow-[0px_40px_153px_27px_rgba(0,0,0,0.1)]"
+              >
+                <div
+                  class="card-img-box max-w-77 mx-auto transition-all duration-500 ease-linear hover:scale-105"
+                >
+                  <img
+                    class="w-full h-full object-cover"
+                    src="./assets/card3img.png"
+                    alt=""
+                  />
+                </div>
+                <p
+                  class="card-hdr uppercase text-[20px] md:text-[32px] text-[#2e0f1c] my-2.5 md:my-13.5 font-brevia-semibold"
+                >
+                  yoga <span class="text-[#ee77a9]">for beginners</span>
+                </p>
+                <p
+                  class="desc text-[13px] md:text-[18px] font-brevia-regular text-[#3d3b3c]"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                  maecenas accumsan lacus vel facilisis.
+                </p>
+                <a href="#" class="primary-btn rounded-[22px] mt-7 mb-5 md:mb-0"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- !beginners section code -->
+      <section class="begin-sec py-8 sm:py-20 text-center xl:text-start">
+        <div class="max-w-317.5 mx-auto w-full px-3.75">
+          <div class="flex flex-wrap -mx-3.75">
+            <div class="w-full xl:w-[50%] px-3.75">
+              <div class="banner-cntn">
+                <h2
+                  class="title1 uppercase text-[30px] md:text-[50px] font-lucidabright-demibold mb-13.75 text-[#2e0f1c]"
+                >
+                  yoga for
+                  <span class="bg-[#ef77aa] rounded-sm text-white px-3"
+                    >beginners</span
+                  >
+                </h2>
+
+                <div class="desc">
+                  <p
+                    class="mb-11.5 text-[16px] sm:text-[18px] font-brevia-regular text-[#3d3b3c]"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis. Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Quis ipsum suspendisse ultrices gravida. Risus commodo
+                    viverra maecenas accumsan lacus vel facilisis.
+                  </p>
+                  <p
+                    class="text-[16px] sm:text-[18px] font-brevia-regular text-[#3d3b3c]"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis.
+                  </p>
+                </div>
+
+                <a href="#" class="primary-btn rounded-[22px] mt-7"
+                  >Read More</a
+                >
+              </div>
+            </div>
+            <div class="w-full xl:w-[50%] px-3.75">
+              <div
+                class="begin-img-box bg-[rgb(245,245,245)] w-44 sm:w-70 md:w-96.5 h-52 sm:h-80 md:h-131.25 relative mx-auto xl:ms-35 mt-5 xl:mt-0 hover:shadow-[0px_8px_20px_rgba(0,0,0,0.1),0px_20px_60px_rgba(0,0,0,0.15)]"
+              >
+                <div
+                  class="begin-img absolute w-40 sm:w-62 md:w-96.5 top-6 md:top-15 -left-4 sm:-left-1 md:-left-15 transition-all duration-500 ease-linear hover:scale-105 hover:tracking-normal"
+                >
+                  <img
+                    class="w-full h-full object-cover"
+                    src="./assets/beginners-img.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- !slider section code -->
+      <section class="slider-sec pt-8 sm:pt-27">
+        <div class="max-w-317.5 mx-auto w-full px-3.75">
+          <div id="basic-slider" class="splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div class="slider-card bg-[#f5f5f5] py-5.75">
+                    <div class="flex flex-wrap -mx-3.75 items-center">
+                      <div class="w-full md:w-[40%] px-3.75">
+                        <div
+                          class="slider-image w-36 md:w-76 mx-auto md:ms-auto md:me-0 transition-all duration-500 ease-linear hover:scale-105"
+                        >
+                          <img
+                            class="w-full h-full object-cover"
+                            src="./assets/slider-iamge.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="w-full md:w-[60%] px-3.75">
+                        <div class="slider-cntn">
+                          <p
+                            class="slider-quote text-[20px] md:text-[32px] max-w-118 mx-auto text-center font-brevia-regular-italic text-[#2e0f1c]"
+                          >
+                            “ Your strenght is how calmly, quietly and
+                            peacefully you face life....”
+                          </p>
+                          <p
+                            class="quote-writer capitalize text-[18px] max-w-118 mx-auto text-end text-[#9b315d] font-brevia-bold"
+                          >
+                            yogi b.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="splide__slide">
+                  <div class="slider-card bg-[#f5f5f5] py-5.75">
+                    <div class="flex flex-wrap -mx-3.75 items-center">
+                      <div class="w-full md:w-[40%] px-3.75">
+                        <div
+                          class="slider-image w-36 md:w-76 mx-auto md:ms-auto md:me-0 transition-all duration-500 ease-linear hover:scale-105"
+                        >
+                          <img
+                            class="w-full h-full object-cover"
+                            src="./assets/slider-iamge.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="w-full md:w-[60%] px-3.75">
+                        <div class="slider-cntn">
+                          <p
+                            class="slider-quote text-[20px] md:text-[32px] max-w-118 mx-auto text-center font-brevia-regular-italic text-[#2e0f1c]"
+                          >
+                            “ Your strenght is how calmly, quietly and
+                            peacefully you face life....”
+                          </p>
+                          <p
+                            class="quote-writer capitalize text-[18px] max-w-118 mx-auto text-end text-[#9b315d] font-brevia-bold"
+                          >
+                            yogi b.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="splide__slide">
+                  <div class="slider-card bg-[#f5f5f5] py-5.75">
+                    <div class="flex flex-wrap -mx-3.75 items-center">
+                      <div class="w-full md:w-[40%] px-3.75">
+                        <div
+                          class="slider-image w-36 md:w-76 mx-auto md:ms-auto md:me-0 transition-all duration-500 ease-linear hover:scale-105"
+                        >
+                          <img
+                            class="w-full h-full object-cover"
+                            src="./assets/slider-iamge.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="w-full md:w-[60%] px-3.75">
+                        <div class="slider-cntn">
+                          <p
+                            class="slider-quote text-[20px] md:text-[32px] max-w-118 mx-auto text-center font-brevia-regular-italic text-[#2e0f1c]"
+                          >
+                            “ Your strenght is how calmly, quietly and
+                            peacefully you face life....”
+                          </p>
+                          <p
+                            class="quote-writer capitalize text-[18px] max-w-118 mx-auto text-end text-[#9b315d] font-brevia-bold"
+                          >
+                            yogi b.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- !registration section code -->
+      <section class="reg-sec pb-10">
+        <div class="max-w-317.5 mx-auto w-full px-3.75">
+          <div class="flex flex-wrap -mx-3.75">
+            <div class="w-full lg:w-[40%] px-3.75">
+              <div class="reg-cntn flex flex-col items-center py-8 lg:py-41">
+                <h2
+                  class="bg-[#ef77aa] rounded-sm text-white inline-block text-[30px] sm:text-[62px] uppercase font-lucidabright-demibold-italic px-5.5 tracking-[2px]"
+                >
+                  yoga
+                </h2>
+                <p
+                  class="text-[25px] sm:text-[42px] text-[#2e0f1c] capitalize text-center font-brevia-semibold"
+                >
+                  registration open
+                </p>
+                <p
+                  class="text-[19px] sm:text-[34px] text-[#2e0f1c] uppercase font-brevia-semibold-italic tracking-[2px]"
+                >
+                  get 15% off
+                </p>
+                <a href="#" class="primary-btn rounded-[22px] mt-6 capitalize"
+                  >sign up now</a
+                >
+              </div>
+            </div>
+            <div class="w-full lg:w-[60%] px-3.75">
+              <div class="reg-img md:max-w-155 mx-auto lg:me-0 overflow-hidden">
+                <img
+                  class="w-full h-full object-cover transition-all duration-500 ease-linear hover:scale-110"
+                  src="./assets/reg-img.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- !classes section code -->
+      <section class="classes-sec py-8 sm:py-19">
+        <div class="max-w-317.5 mx-auto w-full px-3.75">
+          <div class="flex flex-wrap -mx-3.75">
+            <div class="lg:w-[33.33%] px-3.75">
+              <div class="classes-card bg-[rgb(155,49,93)]">
+                <div class="class-img overflow-hidden">
+                  <img
+                    class="w-full h-full object-cover transition-all duration-500 ease-linear hover:scale-110"
+                    src="./assets/classes-img1.png"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="classes-cntn pt-5 pe-6 md:pe-24 pb-8 ps-6 md:ps-4 text-center md:text-left"
+                >
+                  <h3
+                    class="classes-head uppercase text-white text-[28px] font-lucidabright-demibold tracking-[1px]"
+                  >
+                    first class free
+                  </h3>
+                  <p
+                    class="classes-desc text-white my-2 font-brevia-regular text-[16px] sm:text-[18px]"
+                  >
+                    Lorem ipsum dolor sit amet, con sectetuer adipiscing
+                    elit,seddiam nonummy nibh euismod tincidunt ut laoreet
+                    dolore magna aliquam.
+                  </p>
+                  <a
+                    href="#"
+                    class="classes-btn flex items-center w-fit mx-auto md:mx-0"
+                  >
+                    <span
+                      class="text-white me-3 capitalize text-[16px] sm:text-[18px] font-brevia-medium relative after:transition-all after:duration-700 after:ease-linear after:bg-white after:absolute after:left-0 after:h-px after:w-0 after:bottom-0 hover:after:w-full hover:after:duration-500"
+                      >read more</span
+                    >
+                    <img
+                      class="transition-all duration-100 ease-linear hover:translate-x-2"
+                      src="./assets/arrow.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-[33.33%] px-3.75">
+              <div class="classes-card bg-[rgb(155,49,93)] my-8 lg:my-0">
+                <div class="class-img overflow-hidden">
+                  <img
+                    class="w-full h-full object-cover transition-all duration-500 ease-linear hover:scale-110"
+                    src="./assets/classes-img2.png"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="classes-cntn pt-5 pe-6 md:pe-24 pb-8 ps-6 md:ps-4 text-center md:text-left"
+                >
+                  <h3
+                    class="classes-head uppercase text-white text-[28px] font-lucidabright-demibold tracking-[1px]"
+                  >
+                    first class free
+                  </h3>
+                  <p
+                    class="classes-desc text-white my-2 font-brevia-regular text-[16px] sm:text-[18px]"
+                  >
+                    Lorem ipsum dolor sit amet, con sectetuer adipiscing
+                    elit,seddiam nonummy nibh euismod tincidunt ut laoreet
+                    dolore magna aliquam.
+                  </p>
+                  <a
+                    href="#"
+                    class="classes-btn flex items-center w-fit mx-auto md:mx-0"
+                  >
+                    <span
+                      class="text-white me-3 capitalize text-[16px] sm:text-[18px] font-brevia-medium relative after:transition-all after:duration-700 after:ease-linear after:bg-white after:absolute after:left-0 after:h-px after:w-0 after:bottom-0 hover:after:w-full hover:after:duration-500"
+                      >read more</span
+                    >
+                    <img
+                      class="transition-all duration-100 ease-linear hover:translate-x-2"
+                      src="./assets/arrow.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-[33.33%] px-3.75">
+              <div class="classes-card bg-[rgb(155,49,93)]">
+                <div class="class-img overflow-hidden">
+                  <img
+                    class="w-full h-full object-cover transition-all duration-500 ease-linear hover:scale-110"
+                    src="./assets/classes-img3.png"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="classes-cntn pt-5 pe-6 md:pe-24 pb-8 ps-6 md:ps-4 text-center md:text-left"
+                >
+                  <h3
+                    class="classes-head uppercase text-white text-[28px] font-lucidabright-demibold tracking-[1px]"
+                  >
+                    first class free
+                  </h3>
+                  <p
+                    class="classes-desc text-white my-2 font-brevia-regular text-[16px] sm:text-[18px]"
+                  >
+                    Lorem ipsum dolor sit amet, con sectetuer adipiscing
+                    elit,seddiam nonummy nibh euismod tincidunt ut laoreet
+                    dolore magna aliquam.
+                  </p>
+                  <a
+                    href="#"
+                    class="classes-btn flex items-center w-fit mx-auto md:mx-0"
+                  >
+                    <span
+                      class="text-white me-3 capitalize text-[16px] sm:text-[18px] font-brevia-medium relative after:transition-all after:duration-700 after:ease-linear after:bg-white after:absolute after:left-0 after:h-px after:w-0 after:bottom-0 hover:after:w-full hover:after:duration-500"
+                      >read more</span
+                    >
+                    <img
+                      class="transition-all duration-100 ease-linear hover:translate-x-2"
+                      src="./assets/arrow.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- !methodology section code -->
+      <section class="method-sec py-8 sm:pt-5 sm:pb-31">
+        <div class="max-w-317.5 mx-auto w-full px-3.75">
+          <div class="flex flex-wrap -mx-3.75">
+            <div class="w-full lg:w-[50%] px-3.75">
+              <div class="method-cntn text-center lg:text-left">
+                <h2
+                  class="title2 uppercase text-[20px] md:text-[50px] font-lucidabright-demibold tracking-normal sm:tracking-[2px] text-[#2e0f1c] mb-2.5 sm:mb-15.5"
+                >
+                  our
+                  <span class="bg-[#ef77aa] rounded-sm text-white px-0 sm:px-3"
+                    >methodology</span
+                  >
+                </h2>
+
+                <div class="desc">
+                  <p
+                    class="mb-11.5 text-[16px] sm:text-[18px] font-brevia-regular text-[#3d3b3c]"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis. Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Quis ipsum suspendisse ultrices gravida. Risus commodo
+                    viverra maecenas accumsan lacus vel facilisis.
+                  </p>
+                  <p
+                    class="text-[16px] sm:text-[18px] font-brevia-regular text-[#3d3b3c]"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis. Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Quis ipsum suspendisse ultrices gravida. Risus commodo
+                    viverra maecenas accumsan lacus vel facilisis.
+                  </p>
+                </div>
+
+                <a href="#" class="primary-btn rounded-[22px] mt-7"
+                  >Read More</a
+                >
+              </div>
+            </div>
+            <div class="w-full lg:w-[50%] px-3.75">
+              <div
+                class="method-outer-card bg-white shadow-[0.868px_4.924px_17.2px_2.8px_rgba(0,0,0,0.1)] p-5 mt-5 lg:mt-0"
+              >
+                <div class="method-img relative overflow-hidden">
+                  <img
+                    class="w-full h-full object-cover transition-all duration-500 ease-linear hover:scale-110"
+                    src="./assets/methodimg.png"
+                    alt=""
+                  />
+                  <div
+                    class="play-btn absolute left-[50%] top-[50%] -translate-x-1/2 -translate-y-1/2"
+                  >
+                    <a href="#">
+                      <img
+                        class="transition-all duration-500 ease-linear hover:scale-50"
+                        src="./assets/play-btn.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- !therapy section code -->
+      <section
+        class="therapy-sec bg-[url(/assets/therapy-bg.png)] bg-no-repeat bg-left md:bg-center bg-cover py-8 sm:py-32"
+      >
+        <div class="max-w-317.5 mx-auto w-full px-3.75">
+          <div class="thp-cntn max-w-135 mx-auto text-center md:text-start">
+            <h2
+              class="therapy-head uppercase text-[30px] sm:text-[50px] text-white [text-shadow:0px_5px_8.6px_rgba(255,255,255,0.1)] mb-3 sm:mb-0 font-lucidabright-demibold tracking-[2px]"
+            >
+              yoga therapy
+            </h2>
+            <ul class="flex flex-col items-center md:items-start">
+              <li
+                class="capitalize text-white text-[18px] sm:text-[38px] [text-shadow:0px_5px_8.6px_rgba(255,255,255,0.1)] flex items-center mb-3 sm:mb-0 font-brevia-medium tracking-[2px]"
+              >
+                <img src="./assets/therapy-arrow.png" alt="" class="me-1.5" />
+                inhale
+              </li>
+              <li
+                class="capitalize text-white text-[18px] sm:text-[38px] [text-shadow:0px_5px_8.6px_rgba(255,255,255,0.1)] flex items-center font-brevia-medium tracking-[2px]"
+              >
+                <img src="./assets/therapy-arrow.png" alt="" class="me-1.5" />
+                exhale
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- !footer section -->
+    <footer class="footer-sec bg-[rgb(155,49,93)] text-white">
+      <div class="footer-top py-8 sm:py-20">
+        <div class="max-w-317.5 mx-auto w-full px-3.75">
+          <div class="flex flex-wrap-reverse -mx-3.75">
+            <div class="w-full sm:w-[50%] xl:w-[33.33%] px-3.75">
+              <div class="footer-col text-center xl:text-left">
+                <div
+                  class="footer-hdr uppercase text-[25px] sm:text-[36px] mb-4 font-lucidabright-demibold tracking-[3px]"
+                >
+                  contact
+                </div>
+                <div
+                  class="desc text-[15px] sm:text-[18px] max-w-65 mx-auto xl:mx-0 font-brevia-regular"
+                >
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                </div>
+              </div>
+            </div>
+            <div class="w-full sm:w-[50%] xl:w-[33.33%] px-3.75">
+              <div class="footer-col text-center xl:text-left mb-12 sm:mb-0">
+                <div
+                  class="footer-hdr uppercase text-[25px] sm:text-[36px] mb-4 font-lucidabright-demibold tracking-[3px]"
+                >
+                  about
+                </div>
+                <div
+                  class="desc text-[15px] sm:text-[18px] max-w-65 mx-auto xl:mx-0 font-brevia-regular"
+                >
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                </div>
+              </div>
+            </div>
+            <div class="w-full xl:w-[33.33%] px-3.75">
+              <div class="footer-col mb-12 xl:mb-0">
+                <div
+                  class="footer-hdr uppercase text-[25px] sm:text-[36px] mb-4 text-center xl:text-left font-lucidabright-demibold tracking-[3px]"
+                >
+                  follow us
+                </div>
+                <ul
+                  class="social-links flex items-center justify-center xl:justify-start flex-wrap sm:flex-nowrap"
+                >
+                  <li class="me-0 sm:me-7">
+                    <a href="#" class="group inline-block">
+                      <svg
+                        class="transition-all duration-300 ease-out group-hover:scale-110 group-hover:-translate-y-1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                      >
+                        <image
+                          id="Facebook"
+                          width="60"
+                          height="60"
+                          xlink:href="data:img/png;base64,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"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="me-0 sm:me-7">
+                    <a href="#" class="group inline-block">
+                      <svg
+                        class="transition-all duration-300 ease-out group-hover:scale-110 group-hover:-translate-y-1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                      >
+                        <image
+                          id="Twitter"
+                          width="60"
+                          height="60"
+                          xlink:href="data:img/png;base64,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"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="me-0 sm:me-7">
+                    <a href="#" class="group inline-block">
+                      <svg
+                        class="transition-all duration-300 ease-out group-hover:scale-110 group-hover:-translate-y-1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                      >
+                        <image
+                          id="Instagram"
+                          width="60"
+                          height="60"
+                          xlink:href="data:img/png;base64,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"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="group inline-block">
+                      <svg
+                        class="transition-all duration-300 ease-out group-hover:scale-110 group-hover:-translate-y-1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                      >
+                        <image
+                          width="60"
+                          height="60"
+                          xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAE0klEQVRogd2ba4hVVRTHf3NnMofIzKaoIOmlkqSUlRMVFUVZZu8XmVJGEURE9aEg6kuUEUlQUAYFUX0wCquRlKwvRvaYcjQjjRHJsDAqk7AyHzOtWLKOnM59nbP3PnvunR9chrkzZ+/1P/vsvddjnw4RoSQmANOBM4BTgZOAI4FxwMHW5V7gT2A7sAXYCHwFrAd+LcOs0IInAucC19nPYxzb+Q3oB94DPgY2hzIwlGAVdw8wx0YwJP8AHwKLgZXe7apgj8+FIrJE4rFcRGb72Ox6YY+ILI4oNIve5BNiCdY7PDiCYhO2icjcsgUvbAGhWfRJ68yrIe+iNR54Ebgl8IIUio+AO4CfmrWXR3A30Adc0koKa7AWuMy2tLpUmjQy3vbCVherzAA+aLb3NxP8EnBpWLtKRUW/Coyp10kjwQuBm9tIbMIs4JV6f6w3h2fZ49HO3A68lkfwBHPgT2xzwb8DZ2f98FqP9FOjQKxyBPCcDmr6y+wIaxCwOrpp5XJ5enpmR/j+USQ04VGgM/klLbgXuH6EjCoTfWqvTtpPC34g+7yPIh5MRjmZw8faatYdQOP3wM/AkGc7OhhHAZMDDIRYmmljl31xQQCxSywrMQDs8mwrYYzlxe4GFqTnYkH0hl2xP2dmYdNSzxDtLs/MSZ7PVSKyx8PGfhHp0IYOF5FfPBp6OoLY5HOfh527ReRkncP6OK9yfFR+BE4B/g70COdBvcAzHa+drwvDWR6dvx1ZrPK6x7W9KniaRwMDBf63w3YDX77xuH5qxdNvLrIaH2Qu3ru2Rbiy1+PaHhXc49FA0f1Rt75rgM+AR4DDIvSZZlylhEpBI4btb4cCT1oe6s4cmZdQdFdSha2RQKfTy8AnwOkR+u+KdWeboS7kITE6UsH7YnRUB80jP2SjGyMOH1JfeidwdITOsJVa+QtYBLxgteFY7O6yDic7dlik1irWl87XZ4ANEfrMslMF/wCc49jA2AL/O2Tplh2OfSW4RkzKjorHnaagAyEBxGK+uyuDFXPGXbkxNS9jcatHP/0qeJ3Hnde5/3BEsbdZssIF3Y0+T+LM5R5xpgblcyLEwr0i8oeHneu1jpw4Hks97rqmYd4BngUm+Q9iFccBT9jBFhffO0FtHE6SeMfrhG5UdcuJRk9fA1vtEXJ19MVWYw0nT7OyrS9aWVyXrjwsA64M0HArMmB1pqG0L/38KBWLeXT708bZ2tLKNiuA50EzJDOBPdSIQxe1pMl+PJ6IpYZgPQ3zVhuJacanllI6QK2C+EQ72BkrgioLzaaeb1mVA9RKAGy1wlq781hWLA1ySW/aCZ52ZZmtzFU0OpjWaav2xW0meg1wkR08r6JRTmvYnPU1cewMgpZq59UTS86jhz020jNaTt7/2WI+RMPT83myltvN5VxRgpGh6LdsStNXBfKmabdZxaDqoFcL0GcjO5jHlCJ56X12um1B5ExjPXbZ2Y0bLPOaD8dgfIqI9HkE476sEpGZLrb7ZiFmW+exWCsiN+nRBVebQ7zG02Hnu+4FzvNMo9bjS6tBvZEOBJyMDSA4zTQ7lX6tlU+K5K3T6HrxrXlM75uL+G8IA8t8FU8zmhqH6pGKqanX8LRGnKR2NSjXF7HUUdDTr5tsi/kC+M6zylAN8B8V6lbO2VCH3wAAAABJRU5ErkJggg=="
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="h-0.5 bg-[rgb(223,222,222)]/60"></div>
+      <div class="footer-btm pt-8 sm:pt-9 pb-8 text-center font-footer-btm">
+        <div class="max-w-317.5 mx-auto w-full px-3.75">
+          <div class="text-[14px] sm:text-[17px]">
+            <span
+              >© 2022 All
+              <a
+                href="#"
+                class="relative after:transition-all after:duration-700 after:ease-linear hover:text-amber-300 after:bg-white after:absolute after:left-0 after:h-0.5 after:w-0 after:bottom-0 hover:after:w-full hover:after:duration-500"
+                >Rights</a
+              >
+              Reserved. Design by
+              <a
+                href="#"
+                class="relative after:transition-all after:duration-700 after:ease-linear hover:text-amber-300 after:bg-white after:absolute after:left-0 after:h-0.5 after:w-0 after:bottom-0 hover:after:w-full hover:after:duration-500"
+                >Yoga Templates</a
+              >
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- *jquery js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- *splide js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
+    <!-- *custom js -->
+    <script src="./js/script.js"></script>
+    <script src="./js/jquery.js"></script>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "tailwindcss";
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  header {
+    position: -webkit-sticky;
+  }
+  .primary-btn {
+    @apply py-1.25 px-9.25 text-[18px] no-underline inline-block rounded-[20px] border-2 border-[#9b315d] text-[#9b315d] font-brevia-medium;
+  }
+  .primary-btn:hover {
+    @apply bg-[#9b315d] text-white;
+  }
+  .sticky {
+    position: fixed !important;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 999999999;
+    background-color: #f0e1df !important;
+  }
+}
+
+@theme {
+  --font-footer-btm: "Poppins", sans-serif;
+  --font-lucidabright-demibold: "LucidaBright-demibold", sans-serif;
+  --font-lucidabright-demibold-italic:
+    "LucidaBright-demibold-italic", sans-serif;
+  --font-brevia-regular: "Brevia-regular", sans-serif;
+  --font-brevia-regular-italic: "Brevia-regular-italic", sans-serif;
+  --font-brevia-medium: "Brevia-medium", sans-serif;
+  --font-brevia-semibold: "Brevia-semibold", sans-serif;
+  --font-brevia-semibold-italic: "Brevia-semibold-italic", sans-serif;
+  --font-brevia-bold: "Brevia-bold", sans-serif;
+}
+
+@font-face {
+  font-family: LucidaBright-demibold;
+  src: url("../fonts/Lucida\ Bright\ Demibold.ttf") format("truetype");
+  /* demibold */
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: LucidaBright-demibold-italic;
+  src: url("../fonts/Lucida\ Bright\ Demibold\ Italic.ttf") format("truetype");
+  /* demibold-italic */
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Brevia-regular;
+  src: url("../fonts/fonnts.com-Brevia_Regular.otf") format("opentype");
+  /* regular*/
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Brevia-regular-italic;
+  src: url("../fonts/fonnts.com-Brevia_Regular_Italic.otf") format("opentype");
+  /* regular-italic */
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Brevia-medium;
+  src: url("../fonts/fonnts.com-Brevia_Medium.otf") format("opentype");
+  /* medium */
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Brevia-semibold;
+  src: url("../fonts/fonnts.com-Brevia_Semibold.otf") format("opentype");
+  /* semibold*/
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Brevia-semibold-italic;
+  src: url("../fonts/fonnts.com-Brevia_Semibold_Italic.otf") format("opentype");
+  /* semibold-italic*/
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Brevia-bold;
+  src: url("../fonts/fonnts.com-Brevia_Bold.otf") format("opentype");
+  /* bold */
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
