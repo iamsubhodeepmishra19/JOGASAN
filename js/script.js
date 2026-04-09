@@ -42,3 +42,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // *splider code
 let splide = new Splide("#basic-slider");
 splide.mount();
+
+// *aos js
+AOS.init();

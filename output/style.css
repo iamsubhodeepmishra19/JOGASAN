@@ -439,12 +439,6 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-\[url\(\'\.\/assets\/Banner\.png\'\)\] {
-    background-image: url('./assets/Banner.png');
-  }
-  .bg-\[url\(\'\.\/assets\/therapy-bg\.png\'\)\] {
-    background-image: url('./assets/therapy-bg.png');
-  }
   .bg-\[url\(\'\/assets\/Banner\.png\'\)\] {
     background-image: url('/assets/Banner.png');
   }

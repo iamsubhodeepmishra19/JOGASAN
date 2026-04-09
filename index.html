@@ -6,6 +6,8 @@
     <title>JOGASAN</title>
     <!-- *splide css -->
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <!-- *aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- *custom css -->
     <link rel="stylesheet" href="./output/style.css" />
   </head>
@@ -159,6 +161,8 @@
           <div class="flex flex-wrap -mx-3.75">
             <div class="sm:max-w-[50%] md:max-w-[33.33%] px-3.75">
               <div
+                data-aos="flip-left"
+                data-aos-duration="3000"
                 class="img-card text-center py-14 px-5 transition-all duration-300 ease-linear hover:shadow-[0px_40px_153px_27px_rgba(0,0,0,0.1)]"
               >
                 <div
@@ -190,6 +194,8 @@
             </div>
             <div class="sm:max-w-[50%] md:max-w-[33.33%] px-3.75">
               <div
+                data-aos="zoom-in-down"
+                data-aos-duration="2000"
                 class="img-card text-center shadow-[0px_40px_153px_27px_rgba(0,0,0,0.1)] py-14 px-4"
               >
                 <div
@@ -221,6 +227,8 @@
             </div>
             <div class="md:max-w-[33.33%] px-3.75">
               <div
+                data-aos="flip-right"
+                data-aos-duration="3000"
                 class="img-card text-center my-[2.5] py-14 px-5 transition-all duration-300 ease-linear hover:shadow-[0px_40px_153px_27px_rgba(0,0,0,0.1)]"
               >
                 <div
@@ -259,7 +267,11 @@
         <div class="max-w-317.5 mx-auto w-full px-3.75">
           <div class="flex flex-wrap -mx-3.75">
             <div class="w-full xl:w-[50%] px-3.75">
-              <div class="banner-cntn">
+              <div
+                data-aos="fade-up-right"
+                data-aos-duration="2000"
+                class="banner-cntn"
+              >
                 <h2
                   class="title1 uppercase text-[30px] md:text-[50px] font-lucidabright-demibold mb-13.75 text-[#2e0f1c]"
                 >
@@ -299,12 +311,16 @@
             </div>
             <div class="w-full xl:w-[50%] px-3.75">
               <div
+                data-aos="zoom-in"
+                data-aos-duration="3000"
                 class="begin-img-box bg-[rgb(245,245,245)] w-44 sm:w-70 md:w-96.5 h-52 sm:h-80 md:h-131.25 relative mx-auto xl:ms-35 mt-5 xl:mt-0 hover:shadow-[0px_8px_20px_rgba(0,0,0,0.1),0px_20px_60px_rgba(0,0,0,0.15)]"
               >
                 <div
-                  class="begin-img absolute w-40 sm:w-62 md:w-96.5 top-6 md:top-15 -left-4 sm:-left-1 md:-left-15 transition-all duration-500 ease-linear hover:scale-105 hover:tracking-normal"
+                  class="begin-img absolute w-40 sm:w-62 md:w-96.5 top-6 md:top-15 -left-4 sm:-left-1 md:-left-15 transition-all duration-500 ease-linear hover:scale-105"
                 >
                   <img
+                    data-aos="flip-down"
+                    data-aos-duration="2000"
                     class="w-full h-full object-cover"
                     src="./assets/beginners-img.png"
                     alt=""
@@ -431,7 +447,11 @@
         <div class="max-w-317.5 mx-auto w-full px-3.75">
           <div class="flex flex-wrap -mx-3.75">
             <div class="w-full lg:w-[40%] px-3.75">
-              <div class="reg-cntn flex flex-col items-center py-8 lg:py-41">
+              <div
+                data-aos="zoom-in-right"
+                data-aos-duration="2000"
+                class="reg-cntn flex flex-col items-center py-8 lg:py-41"
+              >
                 <h2
                   class="bg-[#ef77aa] rounded-sm text-white inline-block text-[30px] sm:text-[62px] uppercase font-lucidabright-demibold-italic px-5.5 tracking-[2px]"
                 >
@@ -453,7 +473,11 @@
               </div>
             </div>
             <div class="w-full lg:w-[60%] px-3.75">
-              <div class="reg-img md:max-w-155 mx-auto lg:me-0 overflow-hidden">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="3000"
+                class="reg-img md:max-w-155 mx-auto lg:me-0 overflow-hidden"
+              >
                 <img
                   class="w-full h-full object-cover transition-all duration-500 ease-linear hover:scale-110"
                   src="./assets/reg-img.png"
@@ -860,8 +884,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
     />
+    <!-- *aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- *custom js -->
-    <script src="./js/script.js"></script>
     <script src="./js/jquery.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
