@@ -15,13 +15,7 @@
     @apply bg-[#9b315d] text-white;
   }
   .sticky {
-    position: fixed !important;
-    width: 100%;
-    left: 0;
-    top: 0;
-    right: 0;
-    z-index: 999999999;
-    background-color: #f0e1df !important;
+    @apply fixed! w-full left-0 top-0 right-0 z-50 bg-[#f0e1df]!;
   }
 }
 
