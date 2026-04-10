@@ -37,11 +37,18 @@ document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll(".splide__pagination").forEach((el) => {
     el.classList.add("!hidden");
   });
+
+  // *aos js
+  AOS.init();
+
+  // *luxy init
+  luxy.init({
+    wrapper: "#luxy",
+    targets: ".luxy-el",
+    wrapperSpeed: 0.08,
+  });
 });
 
 // *splider code
 let splide = new Splide("#basic-slider");
 splide.mount();
-
-// *aos js
-AOS.init();
