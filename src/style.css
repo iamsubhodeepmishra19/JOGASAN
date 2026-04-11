@@ -18,6 +18,11 @@
     @apply fixed! w-full left-0 top-0 right-0 z-50 bg-[#f0e1df]!;
   }
 }
+@utility container {
+  max-width: 1270px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 @theme {
   --font-footer-btm: "Poppins", sans-serif;
